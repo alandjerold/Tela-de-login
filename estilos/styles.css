@@ -64,6 +64,7 @@ h1{
     margin-top: 5px;
     border-radius: 5px;
     height: 40px;
+    cursor: pointer;
 }
 
 a{
