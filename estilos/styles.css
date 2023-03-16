@@ -85,18 +85,19 @@ div.campo > span{
    font-size: 2em;
    
 }
-#ilogin {
-    display: inline-block;
-    height: 50px;
-    width: 87.6%;
+div.campo > input {
+    height: 100%;
+    width: calc(100% - 37px);
+    transform: translateY(-6px);
     border: none;
     border-radius: 10px;
-    
-    
-    background-color: #212226;
-   
+   background-color: #212226e5;
    
     
+}
+
+div.campo > input:focus-within{
+    background-color: white;
 }
 #esqueci{
     font-size: 1.3em;
@@ -114,6 +115,7 @@ a:hover{
     background-color: #2F3240;
     margin: 3px;
     border-radius: 10px;
+    height: 40px;
     
  }
 
